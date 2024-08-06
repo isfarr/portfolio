@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta property="og:title" content="Isfars Portfolio" >
+	<meta property="og:url" content="https://portfolio.vtowner.repl.co/" >
+	<meta property="og:site_name" content="Isfars Portfolio" >
+	<meta property="og:type" content="website" >
+	<meta
+		property="og:description"
+		content="Isfar Mahtab's Developer Portfolio. Isfar Mahtab is a developer focused on frontend development and elegant designs. Let's make something amazing!"
+	>
+		<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+  	<link rel="icon" type="image/x-icon" href="professional-portfolio.png">
+		<title>Isfar Mahtab - Portfolio</title>
+  	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+		<header>
+			<div class="menu-toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<br>
+			<div class="intro-container">
+					<p class="intro-text">Hi, my name is</p>
+					<h1 class="name">Isfar Mahtab<hr></h1>
+					<p class="role">Frontend Developer</p>
+				<hr>
+				<button class="button" onclick="scrollToSection('contact')">
+					 <i class="fas fa-envelope"></i> Contact Me
+				</button>
+			</div>
+		</header>
+	<nav>
+			<a href="#project" onclick="scrollIntoView('project')">Projects</a>
+			<a href="#contact" onclick="scrollIntoView('contact')">Contact</a>
+			<a href="#skills" onclick="scrollIntoView('skills')">Skills</a>
+			<a href="#about" onclick="scrollIntoView('about')">About</a>
+			<a href="#testimonials" onclick="scrollIntoView('thoughts')">Testimonies</a>
+		  <a href="resume2.html">Résumé</a>
+	</nav>
+	
+
+	<section id="about">
+			<h1>About Me</h1>
+		<p>Hello, I'm Isfar Mahtab! I'm not just a web developer; I'm a specialist in markup languages like <strong>CSS3</strong> and <strong>HTML5</strong>, which basically means I'm great at making websites look awesome.
+			Beyond coding, I'm super passionate about a few things - music, technology, and programming. When it comes to programming, I mainly do it for fun because I enjoy it so much.
+			You can catch me online pretty much all the time, hanging out on Discord and various social media platforms. I'm always open to discussing technology and new things. I like learning. Infact I made this website with 2 months of HTML, CSS and JS experience
+<br>
+			<br>
+Let's make something together. If you want help from me, I'll do it fo free. If you wanna shoot me a Hello, or you want help with your blog, I'm here to help you.
+			Just knock me a message and I'll respond right away! [I'll try to atleast]</p>
+<h2>My favourite song (for now)</h2>
+		<p><strong>Amour Plastique [Slowed Version] - Videoclub</strong></p>
+		<audio controls>
+			 <source src="extra/amour.mp3" type="audio/mp3">
+			 Your browser does not support the audio tag.
+		</audio>
+		<p><i>* The audio above belongs to the respective owner of the song,<br> for now its Videoclub.  I do not own the song above.</i></p>
+		
+	</section>
+<br>
+	<br>
+		<section id="project">
+			<h1 class="project-title">Recent Projects</h1>
+
+				<div class="project">
+					<h2>Epic Clicker</h2>
+					<p>Epic Clicker is a free to play, free to waste time and addictive game. It is a dummy project to test my JavaScript Skills, but over the years I have come around and updated it once in a while. Then again, this game doesnt have alot of features as I only made it as a dummy project, however I look forward to upgrading it, and making it more fun than it ever was!</p>
+			
+					<img src="extra/epic.png" alt="epicclicker" width="610" height="345">
+					<br>
+					<a href="https://epicclicker.vtowner.repl.co" class="project-link">View Project</a>
+				</div>
+
+				<div class="project">
+					<h2>SourCurd Article Site</h2>
+					<p>SourCurd Article Site is a mock article site, designed to make the user laugh. It is written to be absurd, and nothing on there is real. Just for fun! I will update the site daily once I get enough time, I'm focusing on other things. If you have any suggestions for SourCurd Article Site, be sure to contact me through the 'Contact' section, or in the contact page in SourCurd Article Site.</p>
+					 <div class="image-container">
+					<img src="extra/news.png" alt="news" width="610" height="345">
+					 </div>
+					<br>
+					<a href="https://news.vtowner.repl.co" class="project-link">View Project</a>
+				</div>
+
+				<div class="project">
+					<h2>Sour Chatbot V1</h2>
+					<p>Sour Chatbot is a sophisticated chatbot to interact with in your free time. It is powered on multiple AI APIs, meaning you can enjoy the comfort of every AI in one website. It can answer any questions, or just talk to you! <strong>I am still working on this project, its not done yet so its not out for the public</strong></p>
+					<img src="extra/chat.jpg" alt="chatbot" width="610" height="345">
+					<br>
+					<a href="#" class="project-link">View Project</a>
+				</div>
+			</section>
+<br>
+	<br>
+
+	
+		<section id="contact">
+				<h1>Contact Me</h1>
+			<p>You can find me in alot of websites. I mostly use the following daily:</p>
+			
+			<div class="social-media-icons">
+				<a href="https://www.twitter.com/SourCcurd" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.discordapp.com/users/954222640787238942" target="_blank"><i class="fab fa-discord"></i></a>
+			</div>
+			
+<h2>Contact me through a form!</h2>
+			<form
+				action="https://formspree.io/f/mzblldby"
+				method="POST"
+			>
+					<label for="name">Your Name:</label>
+					<input type="text" id="name" name="name" required>
+
+					<label for="email">Your Email:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="message">Your Message:</label>
+					<textarea id="message" name="message" required></textarea>
+
+					<button type="submit">Submit</button>
+			</form>
+		</section>
+	<br>
+	<br>
+
+	<section id="skills">
+			<h1>Skills</h1>
+			<div class="skill-bar">
+				<p><strong>HTML</strong></p>
+					<div class="skill">
+							<div class="bard" style="width: 90%; background-color: #4773ed;"></div>
+							<p class="percentage">90%</p>
+					</div>
+			</div>
+		<p>My skillset heavily relies on HTML and CSS as I am a Frontend developer. I always try to improve myself, even if its the small things. I try my best to keep my websites short, sleek and clean.<br> I have the most experience HTML, my time as a Frontend developer was spent practicing and perfecting HTML. HTML is super easy for me, infact I consider myself a professional in HTML. </p>
+
+
+		
+			<div class="skill-bar">
+				<p><strong>CSS</strong></p>
+					<div class="skill">
+							<div class="bard" style="width: 85%; background-color: #4773ed;"></div>
+							<p class="percentage">85%</p>
+					</div>
+			</div>
+<p>It's the same as HTML, CSS is just a must have for a Frontend developer, you can't imagine a frontend developer with no CSS skills. I am trying to refurbish my CSS skills by the day, and I don't consider myself a professional like I do with HTML. Infact there are alot of things I haven't touched in CSS. So I mainly focus on CSS most of the time, CSS is very easy yet complicated, it's very hard to explain. But you get the idea, i'm trying to get as good as possible in CSS.</p>
+
+			<div class="skill-bar">
+				<p><strong>JavaScript</strong></p>
+					<div class="skill">
+							<div class="bard" style="width: 80%; background-color: #4773ed;"></div>
+							<p class="percentage">80%</p>
+					</div>
+			</div>
+<p>I consider myself average in JavaScript. I don't consider myself that good at it, infact I only have weeks of JavaScript experience, but I'm not trying to strenghten my skills as much as CSS for example, still its a really useful skill to have, and it makes the website more user friendly.</p>
+		
+
+			<!-- Add similar blocks for other programming languages -->
+	</section>
+<br>
+	<br>
+
+
+	<section id="testimonials">
+		<h1>Things People Say</h1>
+
+		<div class="quote-card" style="display: block;">
+			<img src="extra/gabe.png" alt="Gabe's Photo" class="quote-image">
+			<br>
+			<br>
+			<p class="quote-text">"This is an amazing portfolio! I love the design and creativity."</p>
+			<p class="quote-author">- Gabe</p>
+		</div>
+
+		<div class="quote-card">
+			<img src="extra/bill.png" alt="Bill's Photo" class="quote-image">
+			<br>
+			<br>
+			<p class="quote-text">"I reached out for help, and Isfar was incredibly supportive and knowledgeable."</p>
+			<p class="quote-author">- Bill</p>
+		</div>
+
+		<div class="quote-card">
+			<img src="extra/citi.png" alt="Citi's Photo" class="quote-image">
+			<br>
+			<br>
+			<p class="quote-text">"Isfar's work is nothing short of exceptional. His attention to detail and creativity truly sets him apart."</p>
+			<p class="quote-author">- Citi</p>
+		</div>
+
+		<div class="quote-card">
+			<img src="extra/L.png" alt="L's Photo" class="quote-image">
+			<br>
+			<br>
+			<p class="quote-text">"R̸̨̛͇̠̤͔̲̤̐͂́̈͆̔͊̑̏͐͋͊̐͂́̋̀̀̑́̈́̀̐̄̈́̃̈́͋̍̊̋͘̚̕͘͝U̵̢̨̨̡̡̜͙̪̫̤̺̘̹͕͇̦̦͓͈͍͔̥͎̖̟͎̜̤̳͎̱̞̬̠̩̰̼̜̳͎͊̑̾̅̑̔̒̉̌̽̊͐̂̅̆̀͊̇̐̾͑̔̃̔̆͛̂̈̍̐̈́͋͗̕͘̚̕͘͜͝͝Ņ̶̱̦͈̼̙̊͌͒̂́̒̃̿̓͆͂́̈̃̾͛̎̈͠͝ ̶̧̢̡̢͚̞͔̮̩̼͕̖̺͎̪͈̱̦̗̤̞̱̟̘̱̰̈̈́́̌̒̿̊̈́̀͛̀̚͜F̴̡̛͚̘͚̱̦͖̰̎̄̓̋̒͊̑̈́̀̾̎͋̒̑͑̉͋̔́̑́̇̉͗͆̏̋̈́̈́̚̚̕̚̕͝͝͝͝͠ͅƠ̷̧̡̝̰̠̜̝̯͚̞͎͖̘̻͚̏̄̈́͐́̃́̉̋́͑́̎͗̏͆̒̎̔̂͑͒̆̈́̿͗͜͜͝ͅͅR̶̤͎̼̯̺͓̦̖̗̍̔̽͒̈́̒͂̌̉́͂̾́́̌̆́͑̕̚͝ͅ ̴͔͖̼͍͚̠̜͉̺̪̯̳͔̘̙̬̭͓͙̟͍̪̘̤̩̤̺̌̈́̄͆̆͑͆̌̉͛͋̀͌͆͛̃̇̐͘̕̚͜͝Y̸̡̧̢̡̛̭̺̣̣̹̣̗̝̹̤̤̝̻̼̫̩̞̯̑̽̈̅̽͗̋̒̐̉̈̈̈́̃́̾̊̓̅̐͋̄̂̌͒͐̀̌̐̎̇̚̚ͅͅO̷̡̡̨͔͓̼̲͖͎͚͎̘̪̗̘̳̦̗̯͔̯̩͓̱̲͎̝͉̭̠͕̰̼̤̾͐̑̔̆́͆͑̔̓̊͂̑̌̇̒̐̔͛͊̌̀͌̂̏̇Ư̴̡̟̬͔̤̲̤͇͔̲̼͈̺̼̼̯͚̣̠̭̘̮̜̻͔͇̭̤̪͍͎̗̜̋̈́̀̿̀̇̐̃͋̐̏́̀̒̽̊͛̐̇̇̊̈́́̇̔̄̆̒͋̇́̑͐̔̚̚͜͝͝Ŗ̴̛̙͉̞̲̖̦̦̟̜͖̰͇̝̯̙̠̈́͐̅̌͒̋͛͌̔͋̕͜ͅ ̶̧̧̧̨̛͖̪̼͙̭̟͙̖͔̮̖͔̞̹͔͕̮͙͚͍̰̙͔͔͎̟͍̱͍̯̟̞͓̪̅̏̄͋̉̽͗̆̊̊̇̾̅̎̊̐̅̀̀̆̀̾́̐̔͛̒̾̏̒̎͐̽́̍̓̓̀̚̚͘͘͠͝ͅĻ̶̢̬͕͍̖͈͖̮̰̺̥̥̙̝͙͓͉͈̰̙͍͇̮̟̺͇̘̯̰̠͗̚͜͜ͅĮ̸̛̝͖̜̭͖͈̹̪̈͑̽̃̋̎͊̒́̈̂͊̈̾̈́̒́̐̐̃̈́̉̏̊̊͑̚F̴̨̢̲͍̟̝͎̎̔͊̽̇̍̀̓̆̽̋̐͂̂̐̀͆͗̂̊́̃̄͗̿͝͝È̴̢̨͈̭̗̭̝͍̖͘͝,̶̝͓̟̜̫̬͇͇̥̰̪̫̯̯̺̙̣͎̄͑̄́́̈́͊͗͊̀̊͑͆͜ ̴̛̫̺̮͉̣͖̜̣̄̌̊͊̄͛͂͆̈͋̌̅̒̽̈́͆̊͌͋̀̚̕͘͝͠͝Ï̸̡̡̧̢̬̤͎͕̜̻͚̳̦̠̤̜̜͚̫̙̹͍͙̺̈́͒̏̈͊̃̈́̊̈́͆̅̿̊͒̈́̎͌̋̒͋̊̈́̋̅̽͆̔̋̒̉͘̕͘͠͝Ḿ̷̧̨̛͎̘̼̙̗̺̪̹͈̮͖̼͓͚̤͍̯̂̉̅̄͐̈́̎͆̋̾̔̑̓̔͌̈͝ ̶̧̧̨̢̛͎̦̘̣͎̲̣̟̹͕͍̪͍͉̭̣̺̯͙̳̠̗̪̺̫̰̖̯͔̜̱̥̲͛̇̈́̀̄͆̐͋̋̔̋̀̋̑́͗̔͐͛͑̔̈̿̓̅͌͑̓̏̎̾̚̚͘͜C̵̢̧̢̢̧̙͖̳͎̲͉̦̠̫̥͚̺̞͓͓͉̪̥̯͇͓̮͇͖̤̼̗̳͎̭̟̠̺̞͔̿̂̏͒̇͋̋͒̀͊̅́̔̆̈́͑̏̄͂̕͝͝͝͝ͅͅƠ̵̛̛͉̬̮͉̟͕̲͋̇̀̔̿́̾́͑͗̋̃̋̾̎͂͛͗̇͑͒̚̚M̶͕̼̭̮͗̾̒͗͊͗̔̾̔̅͊́͆̇̊͑͘I̸̧̨̹̰͇̼̼͎̣͕̝͍͔̦̺̰͓̮̪̯̥̪͖͓̾̃̄͌̆̃̂͑̈́̽͌͂̄͛̉̔̀̇̒̓̎͒͆́̀͊̐̓̂́̄̕͜͠ͅN̵̛̦̟̹̤͙͍̫͉͎̻͍̻̘̄͐̋͂̓̓̅́̽͒̔́͆͆̚̕G̵̥̟͍̺̤̾̓̀̄ ̷̤͍̩̰̣͓̞̬̠̅͒͑̃͗̈́̆̀̂̇̅̇͒̄̐̓̎͠͝͝T̶̡̡̨͍̺͉̤͈̺̪̯̱͎̺̰̪̳̪̩̭̩͇̆͗̿́͒̄̈́̅̾͊̆̀͋̒̏̀̐̔̌̂́́͌́Ǫ̷̢̢͔̪͙̤͔͔̜͇̈́̿̆̓̉͒̋̈́͗́͒̋̂̄̉̈́̈́̐́͛̕̚̕͠͝ ̸̧̧̡̣̱̖͔̮̙̜̘͇͐͒̊̈͌̈͒̽̐̎̌̇̈́̑̓̈́̇̊͘͘͝͝ͅŸ̸̢̙̦̬̝͍̥̗̲́̆̃̈̈́̋́̀̈́̇́͘͠Ǫ̸̨̗̠̱̣̪̻͕̻̮̩̲͉̣͉̣̹̏̊̍̐̎̿͛̄̍͆̂͛̈́̀̐́̄͘̚͘͝ͅͅU̵̡̡̢̢̧̧̟̜̙̠͉͔̜̫͓͖̳͈͍̪̘̫̲̼̳̻̪̗̖͕̻̻̰̽̆̉̎͛̓͛̋̈̈̿͌̑̍̑͘͘̕͜͝ͅͅR̶̡̧̢͉͉̞̼̱̥͉̣̙̺̳͖̖̬̤̣̟̎̿̌̿́͗͊̄̅͊̋̾͐͗̿̓͑͗̊̔̌̈́̓͘͘̕̚͜͝͝͠ͅ ̸̧̢͎͍͈̭̘̩̪̼̼͈̠͍̦͓̩̝͖̤̬̞̝͚̳̝̬̜̩͈͒̄̇͐̿́̊̄̂̀͛͗Ĥ̴̨̢̧̢̨̛̛̛̱̱̙̹̠͉̠͙͔̬͎͚̟͔̩̒͛̃͋́̒̾͌̇͑̍̇̎̕̚̕͜͝͝͝ͅͅŌ̸̡̞̗̜̬̘̘̙̦͕̹̏͊̃̆͑̎̾̽͛̈́̉̑͛͋̇́̔́͠U̴̡̩̘͚̤̼̰̰͍̥̫̙̟̻̫̟͙͙͙̣̲̯̭̗̳̭̞͔̭̅͌͂̒̑̑̀̾͊̿̇͊͂͐̐̓̎͘͜͠S̴̨̛̛̜͙͔̬͈̍͒̑̔͋̋̃̈́̅̋̀́̊̂͒̆̈͑̓̊̎̉́̕̕͜͝ͅȨ̶̛̹͕̟̦̹̘̹̦͉̘̙̰͔̠͔͔̪͙͎͚͖̓̀̋͛̃́̅̑̂̈́̄̀̕͠͝͠"</p>
+			<p class="quote-author">- ?</p>
+		</div>
+
+		<div class="arrow-container">
+			<span class="arrow" onclick="prevQuote()">&#9665;</span>
+			<span class="arrow" onclick="nextQuote()">&#9655;</span>
+		</div>
+	</section>
+
+<div class="copyright">
+	<p>&copy; 2023 - <a href="#about" style="color: inherit; text-decoration: none;">Isfar Mahtab</a>
+</p>
+</div>
+	<script src="https://kit.fontawesome.com/4ace1d9090.js" crossorigin="anonymous"></script>
+	
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			// Code for smooth scrolling on anchor click
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+				anchor.addEventListener('click', function(e) {
+					e.preventDefault();
+
+					const targetId = this.getAttribute('href');
+					const targetElement = document.querySelector(targetId);
+
+					if (targetElement) {
+						targetElement.scrollIntoView({
+							behavior: 'smooth'
+						});
+					}
+				});
+			});
+		});
+	</script>
+
+	<script>
+		// Code for scrolling to a specific section
+		function scrollToSection(sectionId) {
+			const section = document.getElementById(sectionId);
+
+			if (section) {
+				window.scrollTo({
+					top: section.offsetTop,
+					behavior: 'smooth'
+				});
+			} else {
+				console.error(`Section with id "${sectionId}" not found.`);
+			}
+		}
+	</script>
+	<script>
+				// Code for updating progress bar on scroll
+				window.addEventListener('scroll', () => {
+						const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+						const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+						const scrollPercentage = (scrollTop / scrollHeight) * 100;
+
+						const progressBarFill = document.getElementById('progress-bar-fill');
+						if (progressBarFill) {
+								progressBarFill.style.width = `${scrollPercentage}%`;
+						}
+				});
+	</script>
+	<script>
+		 // Code for handling testimonials
+		 let currentIndex = 0;
+		 const quotes = document.querySelectorAll('.quote-card');
+
+		 function showCurrentQuote() {
+				quotes.forEach((quote, index) => {
+					 quote.style.display = index === currentIndex ? 'block' : 'none';
+				});
+		 }
+
+		 function prevQuote() {
+				currentIndex = (currentIndex - 1 + quotes.length) % quotes.length;
+				showCurrentQuote();
+		 }
+
+		 function nextQuote() {
+				currentIndex = (currentIndex + 1) % quotes.length;
+				showCurrentQuote();
+		 }
+
+		 showCurrentQuote();
+	</script>
+
+	<script>
+		function toggleMenu() {
+			const navLinks = document.querySelector('.nav-links');
+			navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
+		}
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const fadeElements = document.querySelectorAll(".fade-in");
+
+			function checkFade() {
+				fadeElements.forEach((element) => {
+					const elementTop = element.getBoundingClientRect().top;
+					const windowHeight = window.innerHeight;
+
+					if (elementTop < windowHeight - 50) {
+						element.classList.add("active");
+					}
+				});
+			}
+
+			checkFade();
+
+			window.addEventListener("scroll", checkFade);
+		});
+
+	</script>
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var mobileMenu = document.getElementById('mobile-menu');
+		var nav = document.querySelector('nav');
+
+		mobileMenu.addEventListener('click', function () {
+			nav.classList.toggle('show');
+		});
+	});
+
+</script>
+	
+</body>
+</html>
+
