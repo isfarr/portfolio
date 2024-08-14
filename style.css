@@ -420,7 +420,7 @@ hr {
 	margin: 0px 0;
 }
 .menu-toggle {
-	display: none; /* Initially hide for larger screens */
+	display: none; 
 	cursor: pointer;
 }
 .resumeheader {
