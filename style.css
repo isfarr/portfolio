@@ -52,7 +52,7 @@ h1 {
   color: #fff;
   margin-bottom: 0.5em;
   font-family: myFirstFont;
-	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
 }
 
 h2 {
@@ -64,8 +64,9 @@ h2 {
 p {
   font-size: 1.4em;
 }
+
 ul {
-	font-size: 1.4em;
+  font-size: 1.4em;
 }
 
 .center-container {
@@ -77,12 +78,14 @@ ul {
   justify-content: space-between;
   margin-top: 10px;
 }
+
 .copyright {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 0.1em;
 }
+
 .interactive-box {
   display: flex;
   background-color: #333;
@@ -123,6 +126,7 @@ ul {
   display: block;
   color: #333;
 }
+
 .project {
   margin-bottom: 20px;
   background-color: #ffffff;
@@ -130,6 +134,7 @@ ul {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 a {
   text-decoration: none;
   position: relative;
@@ -151,6 +156,7 @@ a::after {
 a:hover::after {
   width: 100%;
 }
+
 #progress-bar {
   position: fixed;
   top: 0;
@@ -167,7 +173,7 @@ a:hover::after {
   background-color: #007bff;
 }
 
-form {
+{
   max-width: 600px;
   margin: 2em 2em 2em 5%;
   background-color: #333;
@@ -211,6 +217,7 @@ button {
 button:hover {
   background-color: #2980b9;
 }
+
 .intro-container {
   text-align: center;
 }
@@ -234,10 +241,12 @@ button:hover {
   margin-left: 15em;
   font-family: myFirstFont;
 }
-.resumerole{
-	margin-top: -20px;
-	font-family: myFirstFont;
+
+.resumerole {
+  margin-top: -20px;
+  font-family: myFirstFont;
 }
+
 #testimonials {
   padding: 2em;
   background-color: #222;
@@ -264,6 +273,7 @@ button:hover {
   text-align: right;
   color: #777;
 }
+
 .arrow-container {
   display: flex;
   justify-content: space-between;
@@ -274,21 +284,24 @@ button:hover {
   cursor: pointer;
   font-size: 1.5em;
   color: #3498db;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease, trans 0.3s ease;
 }
 
 .arrow:hover {
   color: #1e87d0;
-  transform: scale(1.2);
+  trans: scale(1.2);
 }
+
 @font-face {
   font-family: myFirstFont;
   src: url(Fixedsys_Excelsior_3.01_Regular.ttf);
 }
+
 @font-face {
   font-family: myFont;
   src: url(NovaSquare-Regular.ttf);
 }
+
 #recent-projects {
   margin-top: 40px;
 }
@@ -325,6 +338,7 @@ button:hover {
 .project-link:hover {
   background-color: #2980b9;
 }
+
 .social-media-icons {
   margin-top: 20px;
 }
@@ -340,6 +354,7 @@ button:hover {
 .social-media-icons a:hover {
   color: #2980b9;
 }
+
 .skill-bar {
   margin-bottom: 20px;
 }
@@ -350,38 +365,43 @@ button:hover {
   justify-content: space-between;
   margin-bottom: 8px;
 }
+
 .language {
   margin: 0;
   flex: 1;
 }
 
 .bar {
-	display: block;
-	height: 3px;
-	width: 25px;
-	background-color: white;
-	margin: 2.9px 0;
+  display: block;
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 2.9px 0;
   float: right;
-	clear: both;
+  clear: both;
 }
 
 .percentage {
   margin: 0;
 }
+
 .quote-image {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 .fas {
   color: #fff;
   font-size: 20px;
 }
+
 .intro-text,
 .name,
 .role {
@@ -396,6 +416,7 @@ img {
     opacity: 1;
   }
 }
+
 audio {
   width: 100%;
   max-width: 300px;
@@ -412,25 +433,26 @@ hr {
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
+
 .bard {
-	display: block;
-	height: 10px;
-	width: 25px;
-	background-color: white;
-	margin: 0px 0;
+  display: block;
+  height: 10px;
+  width: 25px;
+  background-color: white;
+  margin: 0px 0;
 }
+
 .menu-toggle {
-	display: none; 
-	cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
+
 .resumeheader {
-		background-color: #333;
-		color: #fff;
-		text-align: center;
-		padding: 5em;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5em;
 }
-
-
 
 @media only screen and (max-width: 600px) {
   header {
@@ -448,36 +470,101 @@ hr {
   p {
     font-size: 0.9em;
   }
+
   img {
     padding: 0.5em;
     border: 0px solid #7512ff;
   }
- .fade-in {
-	 opacity: 0;
-	 transform: translateY(20px);
-	 transition: opacity 0.8s ease, transform 0.8s ease;
+
+  .fade-in {
+    opacity: 0;
+    trans: translateY(20px);
+    transition: opacity 0.8s ease, trans 0.8s ease;
+  }
+
+  .fade-in.active {
+    opacity: 1;
+    trans: translateY(0);
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #333;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
 
- .fade-in.active {
-	 opacity: 1;
-	 transform: translateY(0);
+/* New form section */
+.container {
+  max-width: 600px;
+  margin: 2em 2em 2em 5%;
+  background-color: #333;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-	nav {
-		display: none; 
-		flex-direction: column;
-		width: 100%;
-		position: absolute;
-		top: 60px;
-		left: 0;
-		background-color: #333;
-	}
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
 
-	nav.show {
-		display: flex; 
-	}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-	.menu-toggle {
-		display: block;
-	}
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #2980b9;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3498db;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9em;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}
+
+input.error {
+  border-color: #e74c3c;
+}
+
+.success-message {
+  color: #2ecc71;
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
