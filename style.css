@@ -1,3 +1,5 @@
+/* Your existing CSS */
+
 body {
   font-family: myFont;
   margin: 0;
@@ -40,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #2980b9;
+  background-color: #007bff;
 }
 
 section {
@@ -111,7 +113,7 @@ ul {
 }
 
 .button-container button:hover {
-  background-color: #2980b9;
+  background-color: #007bff;
 }
 
 .text-container {
@@ -215,7 +217,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #007bff;
 }
 
 .intro-container {
