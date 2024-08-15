@@ -330,7 +330,7 @@ button:hover {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 16px;
-  background-color: #4773ed;
+  background-color: #007bff; 
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
@@ -338,7 +338,7 @@ button:hover {
 }
 
 .project-link:hover {
-  background-color: #2980b9;
+  background-color: #4773ed;
 }
 
 .social-media-icons {
@@ -348,13 +348,13 @@ button:hover {
 .social-media-icons a {
   display: inline-block;
   margin-right: 10px;
-  color: #3498db;
+  color: #007bff;
   text-decoration: none;
   font-size: 34px;
 }
 
 .social-media-icons a:hover {
-  color: #2980b9;
+  color: #007bff;
 }
 
 .skill-bar {
