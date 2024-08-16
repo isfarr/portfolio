@@ -5,14 +5,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #222;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #000;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  background: #333;
+  background: linear-gradient(to right, #b92b27, #1565C0);
   color: #fff;
   text-align: center;
   padding: 10em;
@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-  background-color: #333;
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,17 +32,18 @@ nav {
 }
 
 nav a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   padding: 0.5em 1em;
   margin: 0 10px;
   border-radius: 5px;
-  background-color: #333;
+  background-color: #fff;
   transition: background-color 0.3s ease;
 }
 
 nav a:hover {
   background-color: #007bff;
+  color: #fff
 }
 
 section {
@@ -51,7 +52,7 @@ section {
 
 h1 {
   font-size: 3em;
-  color: #fff;
+  color: #fff
   margin-bottom: 0.5em;
   font-family: myFirstFont;
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
@@ -82,7 +83,7 @@ ul {
 }
 
 .copyright {
-  background-color: #333;
+  background: linear-gradient(to right, #b92b27, #1565C0);
   color: #fff;
   text-align: center;
   padding: 0.1em;
@@ -130,11 +131,28 @@ ul {
 }
 
 .project {
+  background-color:#000000;
+  position: relative;
   margin-bottom: 20px;
-  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.project:hover .project-image {
+    opacity: 1;
 }
 
 a {
@@ -232,7 +250,7 @@ button:hover {
 
 .name {
   font-size: 5em;
-  color: #fff;
+  color: #ffff;
   margin: 0;
   margin-right: 10px;
   font-family: myFirstFont;
@@ -251,12 +269,12 @@ button:hover {
 
 #testimonials {
   padding: 2em;
-  background-color: #222;
+  background-color: #fcfcfc;
 }
 
 .quote-card {
   display: none;
-  background-color: #333;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -308,9 +326,13 @@ button:hover {
   margin-top: 40px;
 }
 
+h3 {
+  color: #fff;
+}
+
 .project {
   margin-bottom: 20px;
-  background-color: #333;
+  background: linear-gradient(to right, #007bff, #ec2F4B);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -318,12 +340,13 @@ button:hover {
 
 .project h3 {
   font-size: 20px;
-  color: #4773ed;
+  color: #fff;
   margin-bottom: 10px;
 }
 
 .project p {
   font-size: 1.3em;
+  color: #fff;
 }
 
 .project-link {
