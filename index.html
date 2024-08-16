@@ -25,10 +25,11 @@
 			</div>
 			<br>
 			<div class="intro-container">
-					<p class="intro-text">Hi, my name is</p>
-					<h1 class="name">Isfar Mahtab<hr></h1>
-					<p class="role">and I bring ideas into reality</p>
+				<p class="intro-text">Hi, my name is</p>
+				<h1 class="name">Isfar Mahtab<hr></h1>
+				<p class="role">and I bring ideas into reality</p>
 				<hr>
+	
 			</div>
 		</header>
 	<nav>
@@ -41,7 +42,7 @@
 	</nav>
 	
 
-	<section id="about">
+	<section id="about" style="background-color: #fcfcfc;">
 			<h1>About Me</h1>
 		<p>Hello, I'm Isfar Mahtab! I'm not just a web developer; I'm a specialist in markup languages like <strong>CSS3</strong> and <strong>HTML5</strong>, which basically means I'm great at making websites look awesome.
 			Beyond coding, I'm super passionate about a few things - music, technology, and programming. When it comes to programming, I mainly do it for fun because I enjoy it so much.
@@ -50,10 +51,10 @@
 			<br>
 Let's make something together. If you want help from me, I'm happy to offer assistance for free. If you wanna shoot me a Hello, or you want help with your blog, I'm here to help you.
 			Just knock me a message and I'll respond right away! [I'll try to atleast]</p>
-<h2>My taste in music</h2>
+<h2 style="color: #000;">My taste in music</h2>
 		<p>I'm a huge fan of the Weeknd, Yeat, Travis Scott, Metro Boomin etc and I've listened to every single album of theirs 🔥. Apart from that, I enjoy pop music!</p>
-		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7cQpJpoSvwTMcDACNH0wEe?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-		<p>You can find my other playlists on my <a href="https://open.spotify.com/user/31fjyylzks3hnbueps7kraukm4uy?si=7ff4f59910a848c3" style="background: linear-gradient(90deg, #FFD700, #FF8C00); -webkit-background-clip: text; color: transparent; text-decoration-color: #FF8C00;">
+		<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7cQpJpoSvwTMcDACNH0wEe?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+		<p>You can find my other playlists on my <a href="https://open.spotify.com/user/31fjyylzks3hnbueps7kraukm4uy?si=7ff4f59910a848c3" style="background: linear-gradient(to right, #b92b27, #1565C0); -webkit-background-clip: text; color: transparent; text-decoration-color: #FF8C00;">
     Spotify account.
 </a>
 </p>
@@ -63,14 +64,12 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 		<section id="project">
 			<h1 class="project-title">Recent Projects</h1>
 
-				<div class="project">
+			<div class="project">
 					<h2>3BitBot</h2>
 					<p>3BitBot is an all-purpose Discord bot that can add comfort to your server. From moderation to fun, 3BitBot can do anything you desire. Powerful moderation commands and utility. Calculate math problems, shorten URLs, and more! 3BitBot is here to assist with various utility tasks.</p>
-					 <div class="image-container">
-					 </div>
 					<br>
 					<a href="https://top.gg/bot/1182431560738283590" class="project-link">View Project</a>
-				</div>
+			</div>
 
 				<div class="project">
 					<h2>Sour Chatbot V1</h2>
@@ -82,15 +81,15 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 					<h2>Epic Clicker</h2>
 					<p>Epic Clicker is a free to play, free to waste time and addictive game. It is a dummy project to test my JavaScript Skills, but over the years I have come around and updated it once in a while. Then again, this game doesnt have alot of features as I only made it as a dummy project, however I look forward to upgrading it, and making it more fun than it ever was!</p>
 			
-					<br>
 					<a href="https://epicclicker.vtowner.repl.co" class="project-link">View Project</a>
 				</div>
 			</section>
 <br>
 	<br>
 
-	<section id="skills">
+	<section id="skills" style="background-color: #fcfcfc;">
 			<h1>Skills</h1>
+		<p>My preferred tech stack along with the languages I'm proficient in.</p>
 			<div class="skill-bar">
 				<p><strong>HTML</strong></p>
 					<div class="skill">
@@ -157,7 +156,7 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 				<a href="https://github.com/isfarr" target="_blank"><i class="fa-brands fa-github"></i></a>
 			</div>
 			
-<h2>Contact me through a form!</h2>
+			<h2 style="color: #000;">Contact me through a form!</h2>
 			<p>Use the form below to reach out if you're interested in collaborating on a project or seeking a custom solution. Include your name, email, and briefly describe your request and I'll get in touch to discuss potential opportunities and pricing details.</p>
 	                    <form action="https://formspree.io/f/mzblldby"method="POST">
 			<div class="contact-form">
@@ -182,7 +181,7 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 
 	<section id="testimonials">
 		<h1>Things People Say</h1>
-
+<p>Don't take my word for it, take theirs!</p>
 		<div class="quote-card" style="display: block;">
 			<img src="extra/gabe.png" alt="Gabe's Photo" class="quote-image">
 			<br>
@@ -216,8 +215,8 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 		</div>
 
 		<div class="arrow-container">
-			<span class="arrow" onclick="prevQuote()">&#9665;</span>
-			<span class="arrow" onclick="nextQuote()">&#9655;</span>
+			<button onclick="prevQuote()">&lt;</button>
+			<button onclick="nextQuote()">&gt;</button>
 		</div>
 	</section>
 
@@ -226,7 +225,6 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 </p>
 </div>
 	<script src="cursor-effect.js"></script>
-	
 	<script src="https://kit.fontawesome.com/4ace1d9090.js" crossorigin="anonymous"></script>
 	
 	<script>
@@ -339,6 +337,5 @@ Let's make something together. If you want help from me, I'm happy to offer assi
 	});
 
 </script>
-	
 </body>
 </html>
