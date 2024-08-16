@@ -8,7 +8,7 @@ class GhostCursor {
       this.cursor.style.width = "30px";
       this.cursor.style.height = "30px";
       this.cursor.style.borderRadius = "50%";
-      this.cursor.style.backgroundColor = "rgba(250, 248, 247)";
+      this.cursor.style.backgroundColor = "rgba(0, 0, 0, 0.2)";
       this.cursor.style.position = "fixed";
       this.cursor.style.pointerEvents = "none";
       this.cursor.style.zIndex = "10000";
