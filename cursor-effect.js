@@ -1,6 +1,13 @@
 class GhostCursor {
   constructor() {
+      if (this.isMobile()) {
+          return; // Exit if the user is on a mobile device
+      }
       this.init();
+  }
+
+  isMobile() {
+      return /Mobi|Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/.test(navigator.userAgent);
   }
 
   init() {
