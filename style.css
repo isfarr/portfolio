@@ -612,3 +612,22 @@ input.error {
     display: block;
     border-radius: 4px;
 }
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates responsive columns */
+    gap: 10px; /* Sets the gap between images */
+    justify-items: center; /* Centers items in the grid */
+}
+
+.image-container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow */
+}
