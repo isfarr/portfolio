@@ -596,7 +596,7 @@ input.error {
 .image-container {
     width: 80%; 
     max-width: 400px; 
-    height: auto; 
+    height: 80%; 
     position: relative;
     overflow: hidden;
     border: 5px solid #333;
@@ -607,7 +607,7 @@ input.error {
 
 .image-container img {
     width: 80%;
-    height: auto; 
+    height: 80%; 
     object-fit: cover;
     display: block;
     border-radius: 4px;
