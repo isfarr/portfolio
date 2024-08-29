@@ -607,11 +607,13 @@ input.error {
 
 .image-container img {
     width: 80%;
-    height: 80%; 
+    height: auto; 
     object-fit: cover;
     display: block;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
 .image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Creates responsive columns */
@@ -619,10 +621,3 @@ input.error {
     justify-items: center; /* Centers items in the grid */
 }
 
-.image-container img {
-    width: 80%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px; /* Optional: Rounded corners */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow */
-}
