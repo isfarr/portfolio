@@ -606,7 +606,7 @@ input.error {
 }
 
 .image-container img {
-    width: 100%;
+    width: 80%;
     height: auto; 
     object-fit: cover;
     display: block;
