@@ -594,11 +594,12 @@ input.error {
   margin-bottom: 1em;
 }
 .image-container {
-    width: 300px;
-    height: 300px;
+    width: 80%; /* Set the container width to 80% of its parent container */
+    max-width: 400px; /* Limit the maximum width */
+    height: auto; /* Auto height to maintain aspect ratio */
     position: relative;
     overflow: hidden;
-    border: 3px solid #666; /* Outer border */
+    border: 5px solid #333;
     padding: 5px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
@@ -606,9 +607,8 @@ input.error {
 
 .image-container img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Maintain aspect ratio */
     object-fit: cover;
     display: block;
-    border: 3px solid #333; /* Inner border */
     border-radius: 4px;
 }
