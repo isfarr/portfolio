@@ -594,8 +594,8 @@ input.error {
 }
 .image-wrapper {
     display: flex;
-    gap: 10px; /* Adjust the gap between images as needed */
-    flex-wrap: wrap; /* Optional: Wrap images to the next line if the container is too narrow */
+    gap: 10px;
+    flex-wrap: wrap; 
 }
 
 .image-container {
