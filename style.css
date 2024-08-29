@@ -619,11 +619,6 @@ input.error {
     justify-items: center; /* Centers items in the grid */
 }
 
-.image-container {
-    width: 100%;
-    box-sizing: border-box;
-}
-
 .image-container img {
     width: 100%;
     height: auto;
