@@ -594,14 +594,14 @@ input.error {
 }
 .image-wrapper {
     display: flex;
-    gap: 10px; /* Adjust the gap between images as needed */
-    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    gap: 10px; 
+    flex-wrap: wrap; 
 }
 
 .image-container {
     width: 300px; 
     height: 300px; 
-    position: relative; 
+    position: center; 
     overflow: hidden; 
     border: 5px solid #333; 
     padding: 5px; 
