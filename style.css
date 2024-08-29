@@ -594,9 +594,9 @@ input.error {
   margin-bottom: 1em;
 }
 .image-container {
-    width: 80%; /* Set the container width to 80% of its parent container */
-    max-width: 400px; /* Limit the maximum width */
-    height: auto; /* Auto height to maintain aspect ratio */
+    width: 80%; 
+    max-width: 400px; 
+    height: auto; 
     position: relative;
     overflow: hidden;
     border: 5px solid #333;
@@ -607,7 +607,7 @@ input.error {
 
 .image-container img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: auto; 
     object-fit: cover;
     display: block;
     border-radius: 4px;
