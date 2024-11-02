@@ -773,8 +773,8 @@ input.error {
             z-index: 9999; /* Ensure it appears above other content */
         }
 
-        .welcome-text {
-            color: #00f0ff; /* Neon blue color */
-            font-size: 48px; /* Adjust size as needed */
-            text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff; /* Neon effect */
-        }
+.welcome-text {
+    color: #00f0ff; /* Neon blue color */
+    font-size: 8vw; /* Adjust size based on viewport width */
+    text-shadow: 0 0 10px #00f0ff, 0 0 20px #00f0ff; /* Neon effect */
+}
