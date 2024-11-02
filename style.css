@@ -694,7 +694,7 @@ input.error {
   }
 
   .typewriter::before {
-    content: "developer";
+    content: "frontend developer";
     animation: sequencePopup 12s linear infinite;
   }
 }
