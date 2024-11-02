@@ -338,5 +338,18 @@ Ready to elevate your online presence? Let's make something together. If you wan
 	});
 
 </script>
+
+	<script>
+    // JavaScript to fade out the welcome screen
+    window.onload = function() {
+        const welcomeScreen = document.getElementById('welcomeScreen');
+        setTimeout(() => {
+            welcomeScreen.style.opacity = '0';
+            setTimeout(() => {
+                welcomeScreen.style.display = 'none'; // Remove from view after fade-out
+            }, 1000); // Match this timeout with the CSS transition duration
+        }, 1000); // Delay before starting fade-out (1 second)
+    };
+</script>
 </body>
 </html>
